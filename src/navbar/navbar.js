@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Li, Ul, Div } from "./navbar-styled";
+import { Li, Ul, Div, Logo } from "./navbar-styled";
 
 function NavBar() {
   return (
@@ -13,6 +13,7 @@ function NavBar() {
           Table
         </Li>
       </Ul>
+      <Logo />
     </Div>
   );
 }

@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
+import logo from "../assets/logo-icon-white.png";
+
 export const Div = styled.div`
   background-color: #4791db;
   width: 100%;
-  height: 3.5rem;
+  height: 6%;
+  max-height: 50px;
+  min-height: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 `;
 
@@ -14,6 +19,8 @@ export const Ul = styled.ul`
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  margin: 0 2rem;
+  height: 100%;
 `;
 
 export const Li = styled.li`
@@ -35,4 +42,13 @@ export const Li = styled.li`
   &.active {
     background-color: #115293;
   }
+`;
+
+export const Logo = styled.div`
+  width: 60px;
+  height: 90%;
+  background-image: url(${logo});
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 `;
