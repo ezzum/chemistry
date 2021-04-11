@@ -1,5 +1,7 @@
+import { TableStyled } from "./table-styled";
+
 function Table() {
-  return <div>Table</div>;
+  return <TableStyled>Table</TableStyled>;
 }
 
 export default Table;

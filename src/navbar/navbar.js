@@ -7,7 +7,7 @@ function NavBar() {
     <Div>
       <Ul>
         <Li as={NavLink} to="/home" activeClassName="active">
-          Home
+          Schedule
         </Li>
         <Li as={NavLink} to="/table" activeClassName="active">
           Table
